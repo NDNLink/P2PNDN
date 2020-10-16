@@ -2,6 +2,7 @@
 #define NDN_INC
 
 class NDN_Connector
+  
 {};
 
 #endif
