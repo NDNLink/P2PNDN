@@ -1,6 +1,7 @@
 #include "dhthelper.h"
 dht::DhtRunner *DhtHelper::m_node = new (std::nothrow) dht::DhtRunner;
 
+
 DhtHelper::DhtHelper()
 {
     m_node->run(4222, dht::crypto::generateIdentity(), true);
