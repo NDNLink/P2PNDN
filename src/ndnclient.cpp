@@ -4,6 +4,7 @@
 #include "ndnclient.h"
 
 NdnClient::NdnClient() : m_name("/example0")
+	
 {
 	//m_name=std::string("/example0");
 }
