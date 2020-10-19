@@ -1,4 +1,5 @@
 #include "dhthelper.h"
+
 dht::DhtRunner *DhtHelper::m_node = new (std::nothrow) dht::DhtRunner;
 
 
